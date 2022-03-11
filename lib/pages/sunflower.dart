@@ -22,7 +22,7 @@ class SunflowerPages extends StatelessWidget {
         children: [
           Sunflower(),
           SFExtraSliders(),
-          SunflowerLine(),
+          // SunflowerLine(),
           SunflowerPrimaryLine(),
           SFsqrt(),
         ],

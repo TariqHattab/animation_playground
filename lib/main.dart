@@ -1,6 +1,7 @@
 import 'package:animation_playground/pages/cureves_animations.dart';
 import 'package:animation_playground/pages/homepage.dart';
 import 'package:animation_playground/pages/sunflower.dart';
+import 'package:animation_playground/pages/sunflower_pages/plus_one_line.dart';
 import 'package:animation_playground/utils/consts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: Pages(),
+      home: SunflowerLine(),
     );
   }
 }
